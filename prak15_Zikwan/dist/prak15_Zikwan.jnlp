@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="prak15_Zikwan.jnlp">
+  <information>
+    <title>prak15_Zikwan</title>
+    <vendor>Praktikan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="prak15_Zikwan.jar" size="6886" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="prak15_Zikwan" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="prak15_zikwan.Prak15_Zikwan"  name="prak15_Zikwan" />
+  <update check="always"/>
+</jnlp>
